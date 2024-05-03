@@ -5,11 +5,12 @@ import VerticalSlider from "./pages/VerticalSlider"
 
 // bg-darkGreen-900
 // bg-slate=300/20
-// bg-[854f6c]
+// bg-[#854f6c]
+// bg-[#fbe4d8]
 
 const App = () => {
   return (
-	<main className="bg-slate=300/20 w-full h-screen">
+	<main className="bg-slate-50 w-full h-full">
 		<Router>
 			<Navbar/>
 			<Routes>

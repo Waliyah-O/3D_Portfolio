@@ -38,6 +38,13 @@ body:has(.card[data-color="green"]:hover) {
     @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
   }
 
+  .purple-gradient_text {
+    @apply bg-gradient-to-r from-[#dfb6b2] to-[#2b124c] bg-clip-text text-transparent;
+  }
+  /* .purple-gradient_text {
+    @apply bg-gradient-to-r from-[#dfb6b2] to-[#854f6c] bg-clip-text text-transparent;
+  } */
+
   .input {
     @apply bg-white border border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mt-2.5 font-normal shadow-card;
   }
@@ -46,12 +53,16 @@ body:has(.card[data-color="green"]:hover) {
     @apply block p-2.5 w-full text-sm text-gray-900 bg-white rounded-lg border border-gray-200 focus:ring-blue-500 focus:border-blue-500 mt-2.5 font-normal shadow-card;
   }
 
-  .btn {
+  /* .btn {
     @apply text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+  } */
+
+  .btn {
+    @apply text-[#f4f3f3] bg-gradient-to-r from-[#dfb6b2] to-[#2b124c] focus:ring-4 focus:outline-none focus:ring-[#b7b2b2] font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
   }
 
   .header {
-    @apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-10 right-0 left-0;
+    @apply flex justify-between items-center sm:px-16 px-8 py-4 max-w-5xl mx-auto absolute top-0 bg-transparent z-10 right-0 left-0 sticky;
   }
 
   .footer {
@@ -173,6 +184,14 @@ body:has(.card[data-color="green"]:hover) {
   border: #2b77e7;
   box-shadow: 0.6vmin 0.6vmin #336cc1, 1vmin 1vmin #0092db, 1vmin 1vmin #0092db,
     0.65vmin 1vmin #0092db, 1vmin 0.65vmin #0092db;
+}
+.neo-brutalism-purple {
+  background: #522b5b;
+  position: relative;
+  border-radius: 10px;
+  border: #522b5b;
+  box-shadow: 0.6vmin 0.6vmin #7041ad, 1vmin 1vmin #793b87, 1vmin 1vmin #522b5b,
+    0.65vmin 1vmin #522b5b, 1vmin 0.65vmin #522b5b;
 }
 
 .neo-brutalism-white {
